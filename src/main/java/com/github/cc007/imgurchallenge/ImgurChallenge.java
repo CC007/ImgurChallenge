@@ -41,6 +41,9 @@ public class ImgurChallenge extends JavaPlugin implements Listener {
         materialsToRemove.add(Material.GOLD_PICKAXE);
         materialsToRemove.add(Material.DIAMOND_PICKAXE);
         materialsToRemove.add(Material.BUCKET);
+        materialsToRemove.add(Material.WATER_BUCKET);
+        materialsToRemove.add(Material.LAVA_BUCKET);
+        materialsToRemove.add(Material.MILK_BUCKET);
 
         ItemStack charCoalItemStack = new ItemStack(Material.COAL, 1, (byte) 1);
         List<Recipe> charCoalRecipies = getServer().getRecipesFor(charCoalItemStack);
